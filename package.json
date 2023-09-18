@@ -1,0 +1,31 @@
+{
+  "name": "array-buffer-detach",
+  "version": "1.0.0",
+  "description": "Detaches (frees) ArrayBuffers, so they're no longer held in memory",
+  "main": "index.js",
+  "scripts": {
+    "bench": "node benchmark.mjs",
+    "test": "node test.mjs && node --allow-natives-syntax test.mjs",
+    "posttest": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bengl/array-buffer-detach.git"
+  },
+  "keywords": [
+    "ArrayBuffer",
+    "ArrayBufferDetach",
+    "performance",
+    "free",
+    "memory"
+  ],
+  "author": "Bryan English <bryan@bryanenglish.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bengl/array-buffer-detach/issues"
+  },
+  "homepage": "https://github.com/bengl/array-buffer-detach#readme",
+  "devDependencies": {
+    "standard": "^17.1.0"
+  }
+}

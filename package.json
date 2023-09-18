@@ -1,6 +1,6 @@
 {
   "name": "array-buffer-detach",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Detaches (frees) ArrayBuffers, so they're no longer held in memory",
   "main": "index.js",
   "scripts": {

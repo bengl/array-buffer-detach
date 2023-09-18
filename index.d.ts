@@ -1,1 +1,3 @@
-export default function detach(buf: ArrayBuffer | ArrayBufferView): void;
+declare function detach(buf: ArrayBuffer | ArrayBufferView): void;
+
+export = detach;
